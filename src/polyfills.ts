@@ -46,6 +46,8 @@
 import 'core-js/es7/reflect';
 
 
+// Add global to window, assigning the value of window itself.
+(window as any).global = window;
 /**
  * Web Animations `@angular/platform-browser/animations`
  * Only required if AnimationBuilder is used within the application and using IE/Edge or Safari.
